@@ -1,8 +1,10 @@
 python_dotenv
 accelerate
-transformers
+transformers==4.40.2
 #conda env config vars set PYTORCH_ENABLE_MPS_FALLBACK=1
 #conda activate <test-env>
 #pip3 install torch torchvision
 torch
 torchvision
+chardet
+#conda install pytorch torchvision -c pytorch
